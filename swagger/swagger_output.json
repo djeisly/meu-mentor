@@ -25,16 +25,16 @@
               "type": "object",
               "properties": {
                 "mentorName": {
-                  "example": "any"
+                  "example": "string"
                 },
                 "expertise": {
-                  "example": "any"
+                  "example": "string"
                 },
                 "available": {
-                  "example": "any"
+                  "example": "boolean"
                 },
                 "linkedin": {
-                  "example": "any"
+                  "example": "string"
                 }
               }
             }
@@ -156,16 +156,16 @@
               "type": "object",
               "properties": {
                 "mentorName": {
-                  "example": "any"
+                  "example": "string"
                 },
                 "expertise": {
-                  "example": "any"
+                  "example": "string"
                 },
                 "available": {
-                  "example": "any"
+                  "example": "boolean"
                 },
                 "linkedin": {
-                  "example": "any"
+                  "example": "string"
                 }
               }
             }
