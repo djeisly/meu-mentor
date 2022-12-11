@@ -1,6 +1,8 @@
 const app = require("./src/app")
-const port = 3000;
+const PORT = process.env.PORT;
 
-app.listen(port, () => {
-    console.log(`Servidor está rodando na porta ${port}`);
+app.listen(PORT, () => {
+    console.log(`Servidor rodando na porta ${PORT}   
+Swagger http://localhost:3000/minha-documentacao`);
 });
+
