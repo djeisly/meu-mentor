@@ -21,7 +21,7 @@ const getAllMentors = async (req, res) => {
 };
 
 const getMultipleFilter = async (req, res) => {
-  try { 
+  try {
     const findParameter = await MentorModel.find(req.query);
 
     if (findParameter.length === 0) {
@@ -29,9 +29,9 @@ const getMultipleFilter = async (req, res) => {
         message: `Search not found!`,
         warning: `The parameters for this type of research must be identical to those registered in the database.`,
       });
-    } 
-    
-    if(findParameter){
+    }
+
+    if (findParameter) {
       res.status(200).json({
         message: "Search found: ",
         findParameter,

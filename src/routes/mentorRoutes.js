@@ -1,4 +1,4 @@
-const mentorController = require("../controllers/mentorController")
+const mentorController = require("../controllers/mentorController");
 const express = require("express");
 
 const router = express.Router();
