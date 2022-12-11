@@ -21,7 +21,7 @@ const getAllMentors = async (req, res) => {
 };
 
 const getMultipleFilter = async (req, res) => {
-  try {
+  try { 
     const findParameter = await MentorModel.find(req.query);
 
     if (findParameter.length === 0) {
@@ -47,7 +47,7 @@ const getMultipleFilter = async (req, res) => {
 const createNewMentor = async (req, res) => {
   try {
     const { mentorName, expertise, available, linkedin } = req.body;
-    const newMentor = new mentorModel({
+    const newMentor = new MentorModel({
       mentorName,
       expertise,
       available,
