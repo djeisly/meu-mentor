@@ -74,20 +74,32 @@
         ],
         "description": "",
         "parameters": [{  
-          "in":"mentorName",
-          "mentorName":"any"
+          "name":"mentorName",
+          "in":"query",
+          "description":"Filtro do nome do Mentor",
+          "required": false,
+          "type":"string"
+        },
+        {  
+          "name":"expertise",
+          "in":"query",
+          "description":"Filtro da expertise do Mentor",
+          "required":false,
+          "type":"string"
         },
         {
-          "in":"expertise",
-          "expertise":"any"
+          "name":"available",
+          "in":"query",
+          "description": "Filtro da disponibilidade do Mentor",
+          "required":false,
+          "type":"boolean"
         },
         {
-          "in":"available",
-          "available":"true"
-        },
-        {
-          "in":"linkedin",
-          "linkedin":"any"
+          "name": "linkedin",
+          "in":"query",
+          "description":"Filtro do Linkedin do Mentor",
+          "required":false,
+          "type":"string"
         }],
         "responses": {
           "200": {
