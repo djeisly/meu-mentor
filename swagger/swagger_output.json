@@ -2,8 +2,8 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "MY MENTOR",
-    "description": "Projeto final Reprograma"
+    "title": "REST API",
+    "description": ""
   },
   "host": "localhost:3000",
   "basePath": "/",
@@ -13,9 +13,6 @@
   "paths": {
     "/mymentor/create": {
       "post": {
-        "tags": [
-          "My Mentor Routes"
-        ],
         "description": "",
         "parameters": [
           {
@@ -25,16 +22,16 @@
               "type": "object",
               "properties": {
                 "mentorName": {
-                  "example": "string"
+                  "example": "any"
                 },
                 "expertise": {
-                  "example": "string"
+                  "example": "any"
                 },
                 "available": {
-                  "example": "boolean"
+                  "example": "any"
                 },
                 "linkedin": {
-                  "example": "string"
+                  "example": "any"
                 }
               }
             }
@@ -52,9 +49,6 @@
     },
     "/mymentor/": {
       "get": {
-        "tags": [
-          "My Mentor Routes"
-        ],
         "description": "",
         "parameters": [],
         "responses": {
@@ -69,38 +63,8 @@
     },
     "/mymentor/filter": {
       "get": {
-        "tags": [
-          "My Mentor Routes"
-        ],
         "description": "",
-        "parameters": [{  
-          "name":"mentorName",
-          "in":"query",
-          "description":"Filtro do nome do Mentor",
-          "required": false,
-          "type":"string"
-        },
-        {  
-          "name":"expertise",
-          "in":"query",
-          "description":"Filtro da expertise do Mentor",
-          "required":false,
-          "type":"string"
-        },
-        {
-          "name":"available",
-          "in":"query",
-          "description": "Filtro da disponibilidade do Mentor",
-          "required":false,
-          "type":"boolean"
-        },
-        {
-          "name": "linkedin",
-          "in":"query",
-          "description":"Filtro do Linkedin do Mentor",
-          "required":false,
-          "type":"string"
-        }],
+        "parameters": [],
         "responses": {
           "200": {
             "description": "OK"
@@ -116,9 +80,6 @@
     },
     "/mymentor/{id}": {
       "get": {
-        "tags": [
-          "My Mentor Routes"
-        ],
         "description": "",
         "parameters": [
           {
@@ -138,9 +99,6 @@
         }
       },
       "put": {
-        "tags": [
-          "My Mentor Routes"
-        ],
         "description": "",
         "parameters": [
           {
@@ -156,16 +114,16 @@
               "type": "object",
               "properties": {
                 "mentorName": {
-                  "example": "string"
+                  "example": "any"
                 },
                 "expertise": {
-                  "example": "string"
+                  "example": "any"
                 },
                 "available": {
-                  "example": "boolean"
+                  "example": "any"
                 },
                 "linkedin": {
-                  "example": "string"
+                  "example": "any"
                 }
               }
             }
@@ -184,9 +142,6 @@
         }
       },
       "delete": {
-        "tags": [
-          "My Mentor Routes"
-        ],
         "description": "",
         "parameters": [
           {
