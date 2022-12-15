@@ -51,12 +51,12 @@ Como solução desenvolvi a API My Mentor, que permite o cadastro de mentores vo
 <br>
 
 ## **Funcionalidades**
-- Cadastrar mentores
-- Listar tods cadastros de mentores
-- Listar mentor por ID
-- Listar mentores por multiplos filtros
-- Editar dados dos mentores
-- Excluir cadastro mentores
+- Cadastrar mentores;
+- Listar tods cadastros de mentores;
+- Listar mentor por ID;
+- Listar mentores por multiplos filtros;
+- Editar dados dos mentores;
+- Excluir cadastro mentores;
 
 <br>
 
@@ -137,8 +137,8 @@ Testes realizados através do Postman:
 <br>
 
 ## **Melhorias Futuras**
-- Desenvolver a lógica para o mentorado com CRUD.
-- Autenticação de usuários e senha criptgrafada
+- Desenvolver a lógica para o mentorado com CRUD;
+- Autenticação de usuários e senha criptografada;
 - Implementação de testes unitários;
 - Implementação de Front-end;
 - Sala de mentoria/estudo online;
@@ -163,9 +163,9 @@ Acredito que seria muito interessante que mais pessoas tivessem que tenho neste 
 
 ## **Links Úteis**
 
-> <a href="https://my-mentor.onrender.com">My Mentor Deploy Render</p></a>
+> <a href="https://my-mentor.onrender.com/mymentor/">My Mentor in Render</p></a>
 
-> <a href="******LINK_DO_CANVA******">Apresentação Canva</p></a>
+> <a href="https://www.canva.com/design/DAFUxwWkN1w/0gKuoFo-lhsh4y-ULSBQuQ/edit?utm_content=DAFUxwWkN1w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Apresentação em Power Point</p></a>
 
 <br>
 
